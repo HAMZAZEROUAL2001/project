@@ -12,9 +12,9 @@ hello guys , to day I will try to build File-Integrity-Monitor with python progr
     Availability — You need to be able to access your data.
 
 let it focus on the Intergrity :
-Integrity means data are trustworthy, complete, and have not been accidentally altered or modified by an unauthorized user.
 
 
+Integrity is maintaining the consistency and trustworthiness of data, making sure it doesn’t change if it’s not supposed to and if it does, the user knows about it. This is what we will cover in this tutorial. We will build a simple FIM (File Integrity Monitor) using hashing algorithms to monitor data and keep tabs on changes made on it (writing) and implement a warning that is triggered when said changes happen so that the user may take the necessary precautions.
 
 
 
