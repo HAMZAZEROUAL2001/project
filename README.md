@@ -33,9 +33,13 @@ why we need it ?
  Or a cryptographic hash function is an algorithm that takes an arbitrary amount of data input and produces a fixed-size output of enciphered text called a hash value, or just “hash.” That enciphered text can then be stored instead of the password itself, and later used to verify the user in the most basic cases.
  
  1- Hashes are non-reversible. it is very hard to find the original password from the output r hash
+ 
  2- Diffusion, the slightest ofr changes to the input will produce an entirely different output, this making it harder 
+ 
  3- Determinism, a given input must always  produce the samen hash value 
+ 
  4- Collision resistance. it should be hard to find two different passwords that hash to the same enciphered text 
+ 
  5- Non predictable, the hash value should not be predictable from the input .
  
  There are many hashing algorithm,I will use the MD5 OR sha256 even if its collision resistance is weak and not secure or (sha256 if I sdudy its because it more secure)
